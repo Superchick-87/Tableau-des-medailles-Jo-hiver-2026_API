@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: #1d5c4c;
+}
+
+/*////////////////////// GENERIQUE //////////////////////*/
+
+/*tr td{
+	border: solid 2px black;
+}*/
+h1 {
+  font-size: 45px;
+  font-weight: inherit;
+  color: inherit;
+  line-height: 50px;
+  margin: 0px 0 15px 0;
+}
+
+h2 {
+  margin: 0 auto;
+  color: black;
+}
+
+legend {
+  color: white;
+}
+
+.plage1 {
+  background-color: #eaeaea;
+}
+
+.plage2 {
+  background-color: white;
+}
+
+.espaceVertical {
+  margin: 10px auto;
+}
+
+.TitreTableau {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  border-radius: 8px 8px 0 0;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  height: 35px;
+}
+
+.consigne {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 8px;
+  background-color: #dedede;
+}
+
+.messerreur {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 8px;
+  background-color: red;
+  color: white;
+}
+
+.medailles {
+  height: 25px;
+  width: 27px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fdor {
+  /*background-color: #fbb600;*/
+  background-image: url(images/or.png);
+}
+
+.fdargent {
+  /*background-color: #bebebe;*/
+  background-image: url(images/argent.png);
+}
+
+.fdbronze {
+  /*background-color: #f28647;*/
+  background-image: url(images/bronze.png);
+}
+
+.fdvert {
+  background-color: #008567;
+}
+
+.fdnoir {
+  background-color: black;
+}
+
+.formulaire {
+  background-color: white;
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.round {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.margincenter {
+  margin: 0 auto;
+}
+
+.bloc {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.date {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+  justify-content: center;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+}
+
+.visu {
+  height: 130px;
+  /*width: 20px;*/
+}
+
+.initial {
+  display: initial;
+  padding-left: 30px;
+}
+
+.presnetationEquipes {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 5px;
+}
+
+.Tableau {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
+
+.TableauEquipe {
+  text-align: left;
+  padding-left: 5px;
+  /*font-weight: bold; */
+  width: max-content;
+}
+
+.TableauRang {
+  text-align: center;
+  font-weight: bold;
+}
+
+.table660 {
+  margin: 0 auto;
+  width: 660px;
+}
+
+.table320 {
+  margin: 0 auto;
+  width: 320px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+.lieu {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
+
+.tele {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-left: 10px;
+  position: relative;
+  z-index: 1;
+  top: -5px;
+}
+
+.equipe {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  width: 33%;
+}
+
+.gauche {
+  text-align: left;
+}
+
+.droite {
+  text-align: right;
+}
+
+.centre {
+  text-align: center;
+  width: 30px;
+}
+
+.bobd {
+  font-size: 12px;
+}
+
+.DrapeauxGrands {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.DrapeauxPetits {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #898989;
+}
+
+.score {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4em;
+  word-wrap: break-word;
+  width: 30px;
+}
+
+.pts {
+  width: 15%;
+}
+
+.date_l {
+  width: 90%;
+}
+
+.ligneresultats {
+  display: flex;
+  justify-content: center;
+  line-height: 1.5em;
+  margin-bottom: 3px;
+}
+
+.maxcontent {
+  width: max-content;
+}
+
+legend {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  margin: 10px;
+}
+
+hr {
+  width: 300px;
+  margin-top: 20px;
+  border-bottom: 0px;
+  border-top: 1px dotted white;
+}
+
+/*table{
+	border: black;
+	margin: 0 auto;
+	width: 320px;
+}*/
+table tbody tr:nth-child(-n + 3) {
+  background-color: #fba200;
+  font-weight: bold;
+}
+
+table tbody tr:nth-child(-n + 3):hover {
+  background-color: #feb54b;
+}
+
+/*Trois dernières cases*/
+/*table tbody tr:nth-child(-n+3)
+td:nth-child(+n+7){background-color: #54ad4147;}*/
+
+/*table tbody tr:nth-child(+n+4)
+td:nth-child(+n+7){background-color: #65D44F;}*/
+
+/*table{margin: 0 auto;width: 300px;}*/
+th {
+  background-color: white;
+}
+
+table tr:nth-child(odd) {
+  background-color: #00855a40;
+}
+
+table tbody tr td:first-child {
+  width: 24px;
+  background-color: white;
+}
+
+table {
+  cellspacing: 1;
+}
+
+table tr:hover {
+  background-color: #e7e4e4;
+}
+
+div,
+table,
+tbody,
+tr,
+td {
+  /*border:black 1px solid;*/
+}
+
+form {
+  /*background-color: white;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 5px;*/
+}
+
+textarea {
+  font-size: 0.9rem;
+  width: 300px;
+  /*height: 80px;*/
+  text-align: left !important;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 1px white;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+select {
+  width: 170px;
+  height: 27px;
+}
+
+input {
+  height: 20px;
+}
+
+input,
+select {
+  font-size: 15px;
+  text-align: center !important;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #d2e2ff;
+  color: #000;
+}
+
+input[type="number"] {
+  width: 30px;
+  text-align: right;
+}
+
+section {
+  background-color: white;
+  border-radius: 7px;
+
+  /* Responsive */
+  width: 100%;
+  /* Prend toute la largeur disponible par défaut */
+  /* max-width: 600px; Largeur maximale sur grand écran (à ajuster selon vos besoins) */
+  margin: 20px auto;
+  /* Centre la section horizontalement */
+  box-sizing: border-box;
+  /* Garantit que le padding ne dépasse pas de la largeur */
+
+  /* Optionnel : pour éviter que le texte ne colle aux bords sur mobile */
+  padding: 15px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+footer {
+  width: 100%;
+  height: 18px;
+  background-image: url(../css/images/signature.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+}
+
+button,
+input[type="submit"] {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  background-color: #fb1b006b;
+  border: 2px solid rgba(212, 46, 26, 1);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(212, 46, 26, 1);
+  color: #1d5c4c;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+button {
+  margin-top: 0px auto;
+  margin-bottom: 15px auto;
+}
+
+/*////////////////////// DESKTOP //////////////////////*/
+/*input[type=button]{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: #fb1b006b;
+    border: 2px solid rgba(212, 46, 26,1);
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px auto;
+    opacity: 0.5;
+    cursor: pointer;
+}*/
+
+/*input[type=button]:hover {
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(212, 46, 26,1);
+    color: #1d5c4c;
+}*/
+/*////////////////////// RESPONSIVE //////////////////////*/
+
+@media only screen and (max-device-width: 400px) {
+  .equipe {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  img {
+    /* width: 25px;
+		 height: 25px;*/
+    /*border-radius: 50%;*/
+  }
+}
