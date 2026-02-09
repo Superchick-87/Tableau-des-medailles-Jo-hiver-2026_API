@@ -1,6 +1,6 @@
 # 🏅 Tableau des Médailles - JO
 > Ce projet est une application web légère en PHP permettant d'afficher en temps réel le classement des médailles des Jeux Olympiques à partir d'une API.
-![Aperçu de l'interface](Capture%20d’écran%202026-02-09%20à%2013.59.33.png)
+![Aperçu de l'interface](Capture.png)
 
 ## 🚀 Fonctionnalités
 Lecture Dynamique : Les données sont extraites directement du fichier Resultats.csv.
